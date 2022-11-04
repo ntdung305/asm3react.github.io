@@ -1,0 +1,24 @@
+.info {
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #e9ecef;
+  height: 160px;
+  justify-items: center;
+  align-items: center;
+  gap: 25px;
+  box-shadow: 1px 1px #c6c1c1;
+}
+.info-1 {
+  width: 410px;
+  text-align: center;
+}
+.info-1__1 {
+  color: #212529;
+  font-size: 20px;
+}
+.info-1__2 {
+  font-size: 18px;
+  color: #868e96;
+}

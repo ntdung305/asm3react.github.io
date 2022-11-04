@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  width: 1220px;
+  gap: 350px;
+  height: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 50px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  font-size: 24px;
+}
+.header-1 {
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+}
+.header-3 {
+  display: flex;
+  gap: 20px;
+  padding-right: 20px;
+}
+.header-1_NavLink {
+  color: #212529;
+}
+.header-1_NavLink:hover {
+  color: #fcc419;
+}
+a:link {
+  text-decoration: none;
+}
+.w-6 {
+  width: 30px;
+  height: 30px;
+}

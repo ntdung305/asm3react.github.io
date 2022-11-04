@@ -1,0 +1,21 @@
+.Trending {
+  width: 1280px;
+  margin-top: 40px;
+}
+.Trending-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.Trending-1 {
+  font-size: 16px;
+  color: #868e96;
+}
+.Trending-2 {
+  color: #212529;
+  font-size: 22px;
+}
+.Trending-list {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 30px;
+}

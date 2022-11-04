@@ -1,0 +1,44 @@
+.Banner-img {
+  width: 1280px;
+}
+.banner {
+  position: relative;
+}
+.banner-title {
+  position: absolute;
+  top: 130px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.banner-title__1 {
+  font-size: 18px;
+  color: #868e96;
+  text-align: start;
+}
+.banner-title__2 {
+  color: #212529;
+  font-size: 40px;
+  width: 400px;
+  line-height: 100%;
+  text-align: start;
+}
+.banner-title__btn {
+  width: 200px;
+  color: #f8f9fa;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+  border: none;
+  background: linear-gradient(0deg, #0a0a0b65 0%, rgba(3, 3, 26, 0.49) 100%);
+}
+.banner-title__btn:hover {
+  background: rgb(6, 7, 52);
+  background: linear-gradient(
+    0deg,
+    rgba(3, 3, 14, 0.641) 0%,
+    rgba(1, 10, 18, 0.743) 100%
+  );
+}

@@ -1,0 +1,117 @@
+.trendingList {
+  border-radius: 10px;
+  padding-top: 30px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 30px;
+  gap: 30px;
+  position: relative;
+}
+
+.trendingList-img {
+  width: 300px;
+  border-radius: 10px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.1s ease-in-out;
+  box-shadow: 1px 1px #efececb9;
+}
+
+.trendingList__name {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.trendingList__price {
+  text-align: center;
+  margin-top: 10px;
+  font-family: Helvetica;
+  color: #adb5bd;
+}
+.trendingList1:hover img {
+  opacity: 0.5;
+}
+
+/* DETAILPRODUCT */
+.detailProducts {
+  width: 1300px;
+  height: 600px;
+  background-color: #f8f9fa;
+  position: absolute;
+  right: 50px;
+  top: 100px;
+}
+.detailProducts1 {
+  display: flex;
+  gap: 100px;
+  height: 600px;
+  justify-items: center;
+  justify-content: start;
+  border-radius: 5px;
+
+  position: relative;
+}
+.detailProducts2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 600px;
+  gap: 20px;
+}
+.detailProducts-img {
+  width: 600px;
+  height: 600px;
+}
+.detailProducts-price {
+  font-size: 24px;
+  color: #868e96;
+  text-align: start;
+  font-family: Courier;
+  font-weight: bold;
+}
+
+.detailProducts-name {
+  color: #212529;
+  font-size: 26px;
+  text-align: start;
+  font-family: Verdana;
+  font-weight: 500;
+}
+.detailProducts-overview {
+  font-size: 20px;
+  color: #868e96;
+  text-align: start;
+  line-height: 1.5;
+  font-family: Verdana;
+}
+.detailProducts-btn {
+  width: 200px;
+  color: #f8f9fa;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+  border: none;
+  background: #4950578f;
+  border-radius: 10px;
+}
+.detailProducts-btn:hover {
+  background: rgb(6, 7, 52);
+  background: linear-gradient(
+    0deg,
+    rgba(3, 3, 14, 0.641) 0%,
+    rgba(1, 10, 18, 0.743) 100%
+  );
+}
+.detailProducts-x {
+  font-size: 30px;
+  position: absolute;
+  color: #212529;
+  right: 20px;
+  top: 5px;
+}
+.detailProducts-x:hover {
+  color: #868e96;
+  transform: scale(1.5);
+}
